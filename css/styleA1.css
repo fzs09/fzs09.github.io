@@ -1,0 +1,89 @@
+body {
+	background-color:#D0B29F ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.visit a {
+    color: #49250F;
+}
+
+.visit li {
+        display: list-item;
+}
+.head {
+    background-color: #643C24;
+    color: #FAEBD7;
+}
+
+.info-details {
+    padding-top: 30px;
+}
+
+.info-table th, td {
+    padding: 10px;
+}
+
+.edu-table thead, tbody, th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+.mainheader {
+	background-color:  none;
+	height: 50px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+.mainheader ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #64422D;
+}
+
+.mainheader ul li{
+	float: left;
+	margin: 0 1%;
+
+}
+.mainheader ul li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mainheader li {
+    padding-left: 80px;
+}
+
+.mainheader ul li a:link {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+/* visited link */
+.mainheader ul li a:visited {
+    
+}
+
+/* mouse over link */
+.mainheader ul li a:hover {
+    background-color: #522D18;
+    
+}
+
+/* selected link */
+.mainheader ul li a:active {
+    background-color: #522D18;
+}
+
